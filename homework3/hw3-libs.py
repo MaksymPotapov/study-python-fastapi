@@ -29,5 +29,5 @@ countries_lib = {
     'Mexico': 'Ciudad de Mexico'
 }
 print(f'#3\tCapitals:')
-print(f'  \tIts capital is: {countries_lib.get(input('  \tType the country whose capital you want to know\n  ->'), 'Sorry, country not in our base')}')
+print(f'  \tIts capital is: {countries_lib.get(input('  \tType the country whose capital you want to know\n  ->'), '\\ERROR\\ Sorry, country not in our base')}')
 print('--------------------')
